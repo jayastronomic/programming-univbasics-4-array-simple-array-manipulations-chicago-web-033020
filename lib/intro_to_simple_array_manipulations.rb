@@ -10,7 +10,7 @@ def using_pop(array)
   array.pop
 end
 
-def using_pop_args(array)
+def pop_with_args(array)
   array.pop(2)
 end
 
@@ -18,7 +18,7 @@ def using_shift(array)
   array.shift
 end
 
-def using_shift_args(array)
+def shift_with_args(array)
   array.shift(2)
 end
 
@@ -42,7 +42,7 @@ def using_delete(array, element)
   array.delete(element)
 end
 
-def using_delete_at(array)
+def using_delete_at(array, 2)
   array.delete_at(2)
 end
 
